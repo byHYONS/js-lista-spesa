@@ -43,7 +43,6 @@ span {
 
 span::after,
 span::before {
-
     content: '';
     display: inline-block;
     vertical-align: middle;
@@ -60,3 +59,4 @@ li {
     padding-bottom: 10px;
 }
 
+/* FINE */

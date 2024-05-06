@@ -23,12 +23,17 @@ const listaSpesa = [
     const contenuto = document.querySelector('.content');
     
     while (contatore < listaSpesa.length) {
-        console.log('CIAO!!!');
+        console.log(listaSpesa[contatore]);
+
         const listaNonOrdinata = document.createElement('ul');
         const elementoLista = document.createElement('li');
+
         elementoLista.innerText = listaSpesa[contatore];
+        
         listaNonOrdinata.append(elementoLista);
         contenuto.append(listaNonOrdinata);
     
         contatore++;
     }
+
+    // FINE
